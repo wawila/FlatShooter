@@ -1,4 +1,5 @@
 Success! SDL initialized.
+assets//shadow.png loaded
 Initializing SLD sound engine.
 Success!
 assets/misc/loading_screen.png loaded
@@ -13,54 +14,58 @@ assets/chars/Square/portrait.png loaded
 assets/chars/Square/preview.png loaded
 assets/chars/Iguro/portrait.png loaded
 assets/chars/Iguro/preview.png loaded
+assets/chars/Demo/portrait.png loaded
+assets/chars/Demo/preview.png loaded
 assets/menu/selected_char_p1.png loaded
 assets/menu/locked_char_p1.png loaded
 assets/menu/no_portrait.png loaded
 Creating character selection menu
 assets/stages/City/images/preview.png loaded
+assets/stages/CityFlat/images/preview.png loaded
+assets/stages/Mountains/images/preview.png loaded
 assets/stages/StarField/images/preview.png loaded
 assets/stages/FeministKillBot_normal/images/preview.png loaded
 assets/stages/FeministKillBot_hard/images/preview.png loaded
 Initializing game.
 Loading stage from XML.
 Loading stage's BackLayers.
-assets/stages/City/images/StageCityBackground.png loaded
-assets/stages/City/images/StageCityBuildingsBack.png loaded
-assets/stages/City/images/StageCityBuildingsMid.png loaded
-assets/stages/City/images/StageCityBuildingsFront.png loaded
+assets/stages/CityFlat/images/StageCityBackground.png loaded
+assets/stages/CityFlat/images/StageCityBuildingsBack.png loaded
+assets/stages/CityFlat/images/StageCityBuildingsMid.png loaded
+assets/stages/CityFlat/images/StageCityBuildingsFront.png loaded
 Loading stage's FrontLayers.
 Stage loaded succesfully from XML.
 Loading dialogues from XML.
-assets/chars/Square/life_bar.png loaded
-assets/chars/Square/sprites/square.png loaded
-assets/chars/Square/sprites/square.png loaded
-assets/chars/Square/sprites/square.png loaded
-assets/chars/Square/sprites/square.png loaded
-assets/chars/Square/sprites/square.png loaded
-assets/chars/Square/sprites/death/1.png loaded
-assets/chars/Square/sprites/death/2.png loaded
-assets/chars/Square/sprites/death/3.png loaded
-assets/chars/Square/sprites/death/4.png loaded
-assets/chars/Square/sprites/death/5.png loaded
-assets/chars/Square/sprites/death/6.png loaded
-assets/chars/Square/sprites/basic bullet.png loaded
-assets/stages/City/Enemy/sprites/character.png loaded
-assets/stages/City/Enemy/sprites/character.png loaded
-assets/stages/City/Enemy/sprites/character.png loaded
-assets/stages/City/Enemy/sprites/character.png loaded
-assets/stages/City/Enemy/sprites/character.png loaded
-assets/stages/City/Enemy/sprites/death1.png loaded
-assets/stages/City/Enemy/sprites/death2.png loaded
-assets/stages/City/Enemy/sprites/death3.png loaded
-assets/stages/City/Enemy/sprites/death4.png loaded
-assets/stages/City/Enemy/sprites/death5.png loaded
-assets/stages/City/Enemy/sprites/death6.png loaded
-assets/stages/City/Enemy/sprites/basic bullet.png loaded
-assets/stages/City/Enemy/sprites/kajira/1.png loaded
-assets/stages/City/Enemy/sprites/kajira/2.png loaded
-assets/stages/City/Enemy/sprites/kajira/3.png loaded
-assets/stages/City/Enemy/sprites/kajira/4.png loaded
-assets/stages/City/Enemy/life_bar.png loaded
+assets/chars/Demo/life_bar.png loaded
+assets/chars/Demo/sprites/spaceship.png loaded
+assets/chars/Demo/sprites/spaceship.png loaded
+assets/chars/Demo/sprites/spaceship.png loaded
+assets/chars/Demo/sprites/spaceship.png loaded
+assets/chars/Demo/sprites/spaceship.png loaded
+assets/chars/Demo/sprites/death/1.png loaded
+assets/chars/Demo/sprites/death/2.png loaded
+assets/chars/Demo/sprites/death/3.png loaded
+assets/chars/Demo/sprites/death/4.png loaded
+assets/chars/Demo/sprites/death/5.png loaded
+assets/chars/Demo/sprites/death/6.png loaded
+assets/chars/Demo/sprites/basic bullet.png loaded
+assets/stages/CityFlat/Enemy/sprites/character.png loaded
+assets/stages/CityFlat/Enemy/sprites/character.png loaded
+assets/stages/CityFlat/Enemy/sprites/character.png loaded
+assets/stages/CityFlat/Enemy/sprites/character.png loaded
+assets/stages/CityFlat/Enemy/sprites/character.png loaded
+assets/stages/CityFlat/Enemy/sprites/death1.png loaded
+assets/stages/CityFlat/Enemy/sprites/death2.png loaded
+assets/stages/CityFlat/Enemy/sprites/death3.png loaded
+assets/stages/CityFlat/Enemy/sprites/death4.png loaded
+assets/stages/CityFlat/Enemy/sprites/death5.png loaded
+assets/stages/CityFlat/Enemy/sprites/death6.png loaded
+assets/stages/CityFlat/Enemy/sprites/basic bullet.png loaded
+assets/stages/CityFlat/Enemy/sprites/kajira/1.png loaded
+assets/stages/CityFlat/Enemy/sprites/kajira/2.png loaded
+assets/stages/CityFlat/Enemy/sprites/kajira/3.png loaded
+assets/stages/CityFlat/Enemy/sprites/kajira/4.png loaded
+assets/stages/CityFlat/Enemy/life_bar.png loaded
 assets/misc/you lose/1.png loaded
 assets/misc/you lose/2.png loaded
 assets/misc/you lose/3.png loaded
@@ -73,4 +78,86 @@ assets/misc/you win/3.png loaded
 assets/misc/you win/4.png loaded
 assets/misc/you win/5.png loaded
 assets/misc/you win/6.png loaded
-Playing music: assets/stages/City/music.ogg
+Playing music: assets/stages/CityFlat/music.ogg
+Playing music: assets/menu/audio/music.ogg
+assets/misc/loading_screen.png loaded
+assets/menu/selection_bg.png loaded
+Creating character selection menu
+assets/chars/Square/portrait.png loaded
+assets/chars/Square/preview.png loaded
+assets/chars/Iguro/portrait.png loaded
+assets/chars/Iguro/preview.png loaded
+assets/chars/Demo/portrait.png loaded
+assets/chars/Demo/preview.png loaded
+assets/menu/selected_char_p1.png loaded
+assets/menu/locked_char_p1.png loaded
+assets/menu/no_portrait.png loaded
+Creating character selection menu
+assets/stages/City/images/preview.png loaded
+assets/stages/CityFlat/images/preview.png loaded
+assets/stages/Mountains/images/preview.png loaded
+assets/stages/StarField/images/preview.png loaded
+assets/stages/FeministKillBot_normal/images/preview.png loaded
+assets/stages/FeministKillBot_hard/images/preview.png loaded
+Initializing game.
+Loading stage from XML.
+Loading stage's BackLayers.
+assets/stages/Mountains/images/Stage1Background.png loaded
+assets/stages/Mountains/images/BigTriangleStrong.png loaded
+assets/stages/Mountains/images/BigTriangleMedium.png loaded
+assets/stages/Mountains/images/BigTriangleLight.png loaded
+assets/stages/Mountains/images/MediumTriangleStrong.png loaded
+assets/stages/Mountains/images/MediumTriangleMedium.png loaded
+assets/stages/Mountains/images/MediumTriangleLight.png loaded
+assets/stages/Mountains/images/SmallTriangleStrong.png loaded
+assets/stages/Mountains/images/SmallTriangleMedium.png loaded
+assets/stages/Mountains/images/SmallTriangleLight.png loaded
+assets/stages/Mountains/images/BigVectorRight.png loaded
+assets/stages/Mountains/images/BigVectorLeft.png loaded
+Loading stage's FrontLayers.
+Stage loaded succesfully from XML.
+Loading dialogues from XML.
+assets/chars/Demo/life_bar.png loaded
+assets/chars/Demo/sprites/spaceship.png loaded
+assets/chars/Demo/sprites/spaceship.png loaded
+assets/chars/Demo/sprites/spaceship.png loaded
+assets/chars/Demo/sprites/spaceship.png loaded
+assets/chars/Demo/sprites/spaceship.png loaded
+assets/chars/Demo/sprites/death/1.png loaded
+assets/chars/Demo/sprites/death/2.png loaded
+assets/chars/Demo/sprites/death/3.png loaded
+assets/chars/Demo/sprites/death/4.png loaded
+assets/chars/Demo/sprites/death/5.png loaded
+assets/chars/Demo/sprites/death/6.png loaded
+assets/chars/Demo/sprites/basic bullet.png loaded
+assets/stages/Mountains/Enemy/sprites/character.png loaded
+assets/stages/Mountains/Enemy/sprites/character.png loaded
+assets/stages/Mountains/Enemy/sprites/character.png loaded
+assets/stages/Mountains/Enemy/sprites/character.png loaded
+assets/stages/Mountains/Enemy/sprites/character.png loaded
+assets/stages/Mountains/Enemy/sprites/death1.png loaded
+assets/stages/Mountains/Enemy/sprites/death2.png loaded
+assets/stages/Mountains/Enemy/sprites/death3.png loaded
+assets/stages/Mountains/Enemy/sprites/death4.png loaded
+assets/stages/Mountains/Enemy/sprites/death5.png loaded
+assets/stages/Mountains/Enemy/sprites/death6.png loaded
+assets/stages/Mountains/Enemy/sprites/basic bullet.png loaded
+assets/stages/Mountains/Enemy/sprites/kajira/1.png loaded
+assets/stages/Mountains/Enemy/sprites/kajira/2.png loaded
+assets/stages/Mountains/Enemy/sprites/kajira/3.png loaded
+assets/stages/Mountains/Enemy/sprites/kajira/4.png loaded
+assets/stages/Mountains/Enemy/life_bar.png loaded
+assets/misc/you lose/1.png loaded
+assets/misc/you lose/2.png loaded
+assets/misc/you lose/3.png loaded
+assets/misc/you lose/4.png loaded
+assets/misc/you lose/5.png loaded
+assets/misc/you lose/6.png loaded
+assets/misc/you win/1.png loaded
+assets/misc/you win/2.png loaded
+assets/misc/you win/3.png loaded
+assets/misc/you win/4.png loaded
+assets/misc/you win/5.png loaded
+assets/misc/you win/6.png loaded
+Playing music: assets/stages/Mountains/music.ogg
+Key pressed but not supported:1073742050
