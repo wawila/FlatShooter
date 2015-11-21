@@ -24,192 +24,43 @@ assets/stages/FeministKillBot_hard/images/preview.png loaded
 Initializing game.
 Loading stage from XML.
 Loading stage's BackLayers.
-assets/stages/FeministKillBot_normal/images/fondo.png loaded
-assets/stages/FeministKillBot_normal/images/planetaguerra.png loaded
-assets/stages/FeministKillBot_normal/images/ex1.png loaded
-assets/stages/FeministKillBot_normal/images/ex2.png loaded
-assets/stages/FeministKillBot_normal/images/ex3.png loaded
-assets/stages/FeministKillBot_normal/images/ex4.png loaded
-assets/stages/FeministKillBot_normal/images/ex5.png loaded
-assets/stages/FeministKillBot_normal/images/ex6.png loaded
-assets/stages/FeministKillBot_normal/images/ex7.png loaded
-assets/stages/FeministKillBot_normal/images/ex1.png loaded
-assets/stages/FeministKillBot_normal/images/ex2.png loaded
-assets/stages/FeministKillBot_normal/images/ex3.png loaded
-assets/stages/FeministKillBot_normal/images/ex4.png loaded
-assets/stages/FeministKillBot_normal/images/ex5.png loaded
-assets/stages/FeministKillBot_normal/images/ex6.png loaded
-assets/stages/FeministKillBot_normal/images/ex7.png loaded
-assets/stages/FeministKillBot_normal/images/ex1.png loaded
-assets/stages/FeministKillBot_normal/images/ex2.png loaded
-assets/stages/FeministKillBot_normal/images/ex3.png loaded
-assets/stages/FeministKillBot_normal/images/ex4.png loaded
-assets/stages/FeministKillBot_normal/images/ex5.png loaded
-assets/stages/FeministKillBot_normal/images/ex6.png loaded
-assets/stages/FeministKillBot_normal/images/ex7.png loaded
-assets/stages/FeministKillBot_normal/images/ex1.png loaded
-assets/stages/FeministKillBot_normal/images/ex2.png loaded
-assets/stages/FeministKillBot_normal/images/ex3.png loaded
-assets/stages/FeministKillBot_normal/images/ex4.png loaded
-assets/stages/FeministKillBot_normal/images/ex5.png loaded
-assets/stages/FeministKillBot_normal/images/ex6.png loaded
-assets/stages/FeministKillBot_normal/images/ex7.png loaded
-assets/stages/FeministKillBot_normal/images/ex1.png loaded
-assets/stages/FeministKillBot_normal/images/ex2.png loaded
-assets/stages/FeministKillBot_normal/images/ex3.png loaded
-assets/stages/FeministKillBot_normal/images/ex4.png loaded
-assets/stages/FeministKillBot_normal/images/ex5.png loaded
-assets/stages/FeministKillBot_normal/images/ex6.png loaded
-assets/stages/FeministKillBot_normal/images/ex7.png loaded
-assets/stages/FeministKillBot_normal/images/ex1.png loaded
-assets/stages/FeministKillBot_normal/images/ex2.png loaded
-assets/stages/FeministKillBot_normal/images/ex3.png loaded
-assets/stages/FeministKillBot_normal/images/ex4.png loaded
-assets/stages/FeministKillBot_normal/images/ex5.png loaded
-assets/stages/FeministKillBot_normal/images/ex6.png loaded
-assets/stages/FeministKillBot_normal/images/ex7.png loaded
-assets/stages/FeministKillBot_normal/images/ex1.png loaded
-assets/stages/FeministKillBot_normal/images/ex2.png loaded
-assets/stages/FeministKillBot_normal/images/ex3.png loaded
-assets/stages/FeministKillBot_normal/images/ex4.png loaded
-assets/stages/FeministKillBot_normal/images/ex5.png loaded
-assets/stages/FeministKillBot_normal/images/ex6.png loaded
-assets/stages/FeministKillBot_normal/images/ex7.png loaded
-assets/stages/FeministKillBot_normal/images/ex1.png loaded
-assets/stages/FeministKillBot_normal/images/ex2.png loaded
-assets/stages/FeministKillBot_normal/images/ex3.png loaded
-assets/stages/FeministKillBot_normal/images/ex4.png loaded
-assets/stages/FeministKillBot_normal/images/ex5.png loaded
-assets/stages/FeministKillBot_normal/images/ex6.png loaded
-assets/stages/FeministKillBot_normal/images/ex7.png loaded
-assets/stages/FeministKillBot_normal/images/ex1.png loaded
-assets/stages/FeministKillBot_normal/images/ex2.png loaded
-assets/stages/FeministKillBot_normal/images/ex3.png loaded
-assets/stages/FeministKillBot_normal/images/ex4.png loaded
-assets/stages/FeministKillBot_normal/images/ex5.png loaded
-assets/stages/FeministKillBot_normal/images/ex6.png loaded
-assets/stages/FeministKillBot_normal/images/ex7.png loaded
-assets/stages/FeministKillBot_normal/images/ex1.png loaded
-assets/stages/FeministKillBot_normal/images/ex2.png loaded
-assets/stages/FeministKillBot_normal/images/ex3.png loaded
-assets/stages/FeministKillBot_normal/images/ex4.png loaded
-assets/stages/FeministKillBot_normal/images/ex5.png loaded
-assets/stages/FeministKillBot_normal/images/ex6.png loaded
-assets/stages/FeministKillBot_normal/images/ex7.png loaded
-assets/stages/FeministKillBot_normal/images/ex1.png loaded
-assets/stages/FeministKillBot_normal/images/ex2.png loaded
-assets/stages/FeministKillBot_normal/images/ex3.png loaded
-assets/stages/FeministKillBot_normal/images/ex4.png loaded
-assets/stages/FeministKillBot_normal/images/ex5.png loaded
-assets/stages/FeministKillBot_normal/images/ex6.png loaded
-assets/stages/FeministKillBot_normal/images/ex7.png loaded
-assets/stages/FeministKillBot_normal/images/restosbrillantes.png loaded
-assets/stages/FeministKillBot_normal/images/2city.png loaded
-assets/stages/FeministKillBot_normal/images/3city.png loaded
-assets/stages/FeministKillBot_normal/images/4city.png loaded
-assets/stages/FeministKillBot_normal/images/restosnegros.png loaded
-assets/stages/FeministKillBot_normal/images/restosnegros.png loaded
-assets/stages/FeministKillBot_normal/images/restosnegros.png loaded
-assets/stages/FeministKillBot_normal/images/plataforma.png loaded
+assets/stages/City/images/StageCityBackground.png loaded
+assets/stages/City/images/StageCityBuildingsBack.png loaded
+assets/stages/City/images/StageCityBuildingsMid.png loaded
+assets/stages/City/images/StageCityBuildingsFront.png loaded
 Loading stage's FrontLayers.
 Stage loaded succesfully from XML.
 Loading dialogues from XML.
-assets/chars/Iguro/life_bar.png loaded
-assets/chars/Iguro/sprites/nuevas/1iddle.png loaded
-assets/chars/Iguro/sprites/nuevas/2iddle.png loaded
-assets/chars/Iguro/sprites/nuevas/1up.png loaded
-assets/chars/Iguro/sprites/nuevas/2up.png loaded
-assets/chars/Iguro/sprites/nuevas/1down.png loaded
-assets/chars/Iguro/sprites/nuevas/2down.png loaded
-assets/chars/Iguro/sprites/nuevas/1back.png loaded
-assets/chars/Iguro/sprites/nuevas/2back.png loaded
-assets/chars/Iguro/sprites/nuevas/1forward.png loaded
-assets/chars/Iguro/sprites/nuevas/2forward.png loaded
-assets/chars/Iguro/sprites/death/1.png loaded
-assets/chars/Iguro/sprites/death/2.png loaded
-assets/chars/Iguro/sprites/death/3.png loaded
-assets/chars/Iguro/sprites/death/4.png loaded
-assets/chars/Iguro/sprites/death/5.png loaded
-assets/chars/Iguro/sprites/death/6.png loaded
-assets/chars/Iguro/sprites/machinegun01.png loaded
-assets/chars/Iguro/sprites/machinegun02.png loaded
-assets/chars/Iguro/sprites/machinegun03.png loaded
-assets/chars/Iguro/sprites/hit1.png loaded
-assets/chars/Iguro/sprites/hit2.png loaded
-assets/chars/Iguro/sprites/hit3.png loaded
-assets/chars/Iguro/sprites/hit4.png loaded
-assets/chars/Iguro/sprites/hit5.png loaded
-assets/chars/Iguro/sprites/lazor01.png loaded
-assets/chars/Iguro/sprites/lazor02.png loaded
-assets/chars/Iguro/sprites/lazor03.png loaded
-assets/stages/FeministKillBot_normal/Enemy/sprites/idle/1.png loaded
-assets/stages/FeministKillBot_normal/Enemy/sprites/idle/2.png loaded
-assets/stages/FeministKillBot_normal/Enemy/sprites/idle/3.png loaded
-assets/stages/FeministKillBot_normal/Enemy/sprites/destroyed/1.png loaded
-assets/stages/FeministKillBot_normal/Enemy/sprites/destroyed/2.png loaded
-assets/stages/FeministKillBot_normal/Enemy/sprites/destroyed/3.png loaded
-assets/stages/FeministKillBot_normal/Enemy/sprites/destroyed/4.png loaded
-assets/stages/FeministKillBot_normal/Enemy/sprites/destroyed/5.png loaded
-assets/stages/FeministKillBot_normal/Enemy/sprites/destroyed/6.png loaded
-assets/stages/FeministKillBot_normal/Enemy/sprites/destroyed/7.png loaded
-assets/stages/FeministKillBot_normal/Enemy/sprites/destroyed/8.png loaded
-assets/stages/FeministKillBot_normal/Enemy/sprites/Eye Lazor/1.png loaded
-assets/stages/FeministKillBot_normal/Enemy/sprites/Eye Lazor/2.png loaded
-assets/stages/FeministKillBot_normal/Enemy/sprites/Eye Lazor/3.png loaded
-assets/stages/FeministKillBot_normal/Enemy/sprites/hit1.png loaded
-assets/stages/FeministKillBot_normal/Enemy/sprites/hit2.png loaded
-assets/stages/FeministKillBot_normal/Enemy/sprites/hit3.png loaded
-assets/stages/FeministKillBot_normal/Enemy/sprites/hit4.png loaded
-assets/stages/FeministKillBot_normal/Enemy/sprites/hit5.png loaded
-assets/stages/FeministKillBot_normal/Enemy/sprites/Feminist Laser/startup/1.png loaded
-assets/stages/FeministKillBot_normal/Enemy/sprites/Feminist Laser/startup/2.png loaded
-assets/stages/FeministKillBot_normal/Enemy/sprites/Feminist Laser/startup/3.png loaded
-assets/stages/FeministKillBot_normal/Enemy/sprites/Feminist Laser/startup/4.png loaded
-assets/stages/FeministKillBot_normal/Enemy/sprites/Feminist Laser/startup/5.png loaded
-assets/stages/FeministKillBot_normal/Enemy/sprites/Feminist Laser/startup/6.png loaded
-assets/stages/FeministKillBot_normal/Enemy/sprites/Feminist Laser/startup/7.png loaded
-assets/stages/FeministKillBot_normal/Enemy/sprites/Feminist Laser/startup/8.png loaded
-assets/stages/FeministKillBot_normal/Enemy/sprites/Feminist Laser/startup/9.png loaded
-assets/stages/FeministKillBot_normal/Enemy/sprites/Feminist Laser/startup/10.png loaded
-assets/stages/FeministKillBot_normal/Enemy/sprites/Feminist Laser/startup/11.png loaded
-assets/stages/FeministKillBot_normal/Enemy/sprites/hit1.png loaded
-assets/stages/FeministKillBot_normal/Enemy/sprites/hit2.png loaded
-assets/stages/FeministKillBot_normal/Enemy/sprites/hit3.png loaded
-assets/stages/FeministKillBot_normal/Enemy/sprites/hit4.png loaded
-assets/stages/FeministKillBot_normal/Enemy/sprites/hit5.png loaded
-assets/stages/FeministKillBot_normal/Enemy/sprites/Feminist Laser/startup/11.png loaded
-assets/stages/FeministKillBot_normal/Enemy/sprites/Feminist Laser/startup/10.png loaded
-assets/stages/FeministKillBot_normal/Enemy/sprites/Feminist Laser/startup/9.png loaded
-assets/stages/FeministKillBot_normal/Enemy/sprites/Feminist Laser/startup/8.png loaded
-assets/stages/FeministKillBot_normal/Enemy/sprites/Feminist Laser/startup/7.png loaded
-assets/stages/FeministKillBot_normal/Enemy/sprites/Feminist Laser/startup/6.png loaded
-assets/stages/FeministKillBot_normal/Enemy/sprites/Feminist Laser/startup/5.png loaded
-assets/stages/FeministKillBot_normal/Enemy/sprites/Feminist Laser/startup/4.png loaded
-assets/stages/FeministKillBot_normal/Enemy/sprites/Feminist Laser/startup/3.png loaded
-assets/stages/FeministKillBot_normal/Enemy/sprites/Feminist Laser/startup/2.png loaded
-assets/stages/FeministKillBot_normal/Enemy/sprites/Feminist Laser/startup/1.png loaded
-assets/stages/FeministKillBot_normal/Enemy/sprites/hit1.png loaded
-assets/stages/FeministKillBot_normal/Enemy/sprites/hit2.png loaded
-assets/stages/FeministKillBot_normal/Enemy/sprites/hit3.png loaded
-assets/stages/FeministKillBot_normal/Enemy/sprites/hit4.png loaded
-assets/stages/FeministKillBot_normal/Enemy/sprites/hit5.png loaded
-assets/stages/FeministKillBot_normal/Enemy/sprites/Feminist Laser/active/1.png loaded
-assets/stages/FeministKillBot_normal/Enemy/sprites/Feminist Laser/active/2.png loaded
-assets/stages/FeministKillBot_normal/Enemy/sprites/Feminist Laser/active/3.png loaded
-assets/stages/FeministKillBot_normal/Enemy/sprites/Feminist Laser/active/4.png loaded
-assets/stages/FeministKillBot_normal/Enemy/sprites/hit1.png loaded
-assets/stages/FeministKillBot_normal/Enemy/sprites/hit2.png loaded
-assets/stages/FeministKillBot_normal/Enemy/sprites/hit3.png loaded
-assets/stages/FeministKillBot_normal/Enemy/sprites/hit4.png loaded
-assets/stages/FeministKillBot_normal/Enemy/sprites/hit5.png loaded
-assets/stages/FeministKillBot_normal/Enemy/sprites/Rocket/1.png loaded
-assets/stages/FeministKillBot_normal/Enemy/sprites/Rocket/2.png loaded
-assets/stages/FeministKillBot_normal/Enemy/sprites/hit1.png loaded
-assets/stages/FeministKillBot_normal/Enemy/sprites/hit2.png loaded
-assets/stages/FeministKillBot_normal/Enemy/sprites/hit3.png loaded
-assets/stages/FeministKillBot_normal/Enemy/sprites/hit4.png loaded
-assets/stages/FeministKillBot_normal/Enemy/sprites/hit5.png loaded
-assets/stages/FeministKillBot_normal/Enemy/life_bar.png loaded
+assets/chars/Square/life_bar.png loaded
+assets/chars/Square/sprites/square.png loaded
+assets/chars/Square/sprites/square.png loaded
+assets/chars/Square/sprites/square.png loaded
+assets/chars/Square/sprites/square.png loaded
+assets/chars/Square/sprites/square.png loaded
+assets/chars/Square/sprites/death/1.png loaded
+assets/chars/Square/sprites/death/2.png loaded
+assets/chars/Square/sprites/death/3.png loaded
+assets/chars/Square/sprites/death/4.png loaded
+assets/chars/Square/sprites/death/5.png loaded
+assets/chars/Square/sprites/death/6.png loaded
+assets/chars/Square/sprites/basic bullet.png loaded
+assets/stages/City/Enemy/sprites/character.png loaded
+assets/stages/City/Enemy/sprites/character.png loaded
+assets/stages/City/Enemy/sprites/character.png loaded
+assets/stages/City/Enemy/sprites/character.png loaded
+assets/stages/City/Enemy/sprites/character.png loaded
+assets/stages/City/Enemy/sprites/death1.png loaded
+assets/stages/City/Enemy/sprites/death2.png loaded
+assets/stages/City/Enemy/sprites/death3.png loaded
+assets/stages/City/Enemy/sprites/death4.png loaded
+assets/stages/City/Enemy/sprites/death5.png loaded
+assets/stages/City/Enemy/sprites/death6.png loaded
+assets/stages/City/Enemy/sprites/basic bullet.png loaded
+assets/stages/City/Enemy/sprites/kajira/1.png loaded
+assets/stages/City/Enemy/sprites/kajira/2.png loaded
+assets/stages/City/Enemy/sprites/kajira/3.png loaded
+assets/stages/City/Enemy/sprites/kajira/4.png loaded
+assets/stages/City/Enemy/life_bar.png loaded
 assets/misc/you lose/1.png loaded
 assets/misc/you lose/2.png loaded
 assets/misc/you lose/3.png loaded
@@ -222,5 +73,4 @@ assets/misc/you win/3.png loaded
 assets/misc/you win/4.png loaded
 assets/misc/you win/5.png loaded
 assets/misc/you win/6.png loaded
-Playing music: assets/stages/FeministKillBot_normal/music.ogg
-Playing music: assets/menu/audio/music.ogg
+Playing music: assets/stages/City/music.ogg

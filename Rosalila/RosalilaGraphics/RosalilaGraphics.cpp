@@ -322,6 +322,136 @@ void RosalilaGraphics::draw2DImage	(
     glColor4ub(color_effects.getRed(), color_effects.getGreen(), color_effects.getBlue(),color_effects.getAlpha());
     glEnable(GL_BLEND);
     glBlendFunc( GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA );
+
+
+
+
+
+
+
+    float shadow_lenght=1;
+    float alpha_init=128;
+    float alpha_end=0;
+    if(shadow_x!=0 || shadow_y!=0)
+    {
+        glColor4ub(100,100,100,100);
+
+        if(x1>=shadow_x)// && false)
+        {
+            float gifiti1=(x2-shadow_x)*shadow_lenght;
+            float gifiti2=(y1-shadow_y)*shadow_lenght;
+            float gifiti1b=(x1-shadow_x)*shadow_lenght;
+            float gifiti2b=(y2-shadow_y)*shadow_lenght;
+            glBegin( GL_QUADS );
+                //Bottom-left vertex (corner)
+                //glColor4ub(100,100,100,255);
+                glColor4ub(255,255,255,alpha_init);
+                glTexCoord2i( 0, 0 );
+                glVertex3f( x2-translate_x, y1-translate_y, 0.0f );
+
+                //Bottom-right vertex (corner)
+                glColor4ub(255,255,255,alpha_end);
+                //glColor4ub(0,0,0,255);
+                glTexCoord2i( 1, 0 );
+                glVertex3f( x2-translate_x+gifiti1, y1-translate_y+gifiti2, 0.f );
+
+
+                //Top-right vertex (corner)
+                //glColor4ub(0,0,0,255);
+                glColor4ub(255,255,255,alpha_end);
+                glTexCoord2i( 1, 1 );
+                glVertex3f( x1-translate_x+gifiti1b, y2-translate_y+gifiti2b, 0.f );
+
+                //Top-left vertex (corner)
+                //glColor4ub(100,100,100,255);
+                glColor4ub(255,255,255,alpha_init);
+                glTexCoord2i( 0, 1 );
+                glVertex3f( x1-translate_x, y2-translate_y, 0.f );
+
+            glEnd();
+        }else if(x2<=shadow_x)// && false)
+        {
+            float gifiti1=(shadow_x-x1)*shadow_lenght;
+            float gifiti2=(shadow_y-y1)*shadow_lenght;
+            float gifiti1b=(shadow_x-x2)*shadow_lenght;
+            float gifiti2b=(shadow_y-y2)*shadow_lenght;
+            glBegin( GL_QUADS );
+                //Bottom-left vertex (corner)
+                //glColor4ub(0,0,0,255);
+                glColor4ub(255,255,255,alpha_end);
+                glTexCoord2i( 0, 0 );
+                glVertex3f( x1-translate_x-gifiti1, y1-translate_y-gifiti2, 0.0f );
+
+                //Bottom-right vertex (corner)
+                //glColor4ub(100,100,100,255);
+                glColor4ub(255,255,255,alpha_init);
+                glTexCoord2i( 1, 0 );
+                glVertex3f( x1-translate_x, y1-translate_y, 0.f );
+
+
+                //Top-right vertex (corner)
+                //glColor4ub(100,100,100,255);
+                glColor4ub(255,255,255,alpha_init);
+                glTexCoord2i( 1, 1 );
+                glVertex3f( x2-translate_x, y2-translate_y, 0.f );
+
+                //Top-left vertex (corner)
+                //glColor4ub(0,0,0,255);
+                glColor4ub(255,255,255,alpha_end);
+                glTexCoord2i( 0, 1 );
+                glVertex3f( x2-translate_x-gifiti1b, y2-translate_y-gifiti2b, 0.f );
+
+            glEnd();
+        }else
+        {
+            float gifiti1=(shadow_x-x1)*shadow_lenght;
+            float gifiti2=(shadow_y-y1)*shadow_lenght;
+            float gifiti1b=(shadow_x-x2)*shadow_lenght;
+            float gifiti2b=(shadow_y-y2)*shadow_lenght;
+
+            float gifiti1x=(x2-shadow_x)*shadow_lenght;
+            float gifiti2x=(y1-shadow_y)*shadow_lenght;
+
+            glBegin( GL_QUADS );
+                //Bottom-left vertex (corner)
+                //glColor4ub(0,0,0,255);
+                glColor4ub(255,255,255,alpha_end);
+                glTexCoord2i( 0, 0 );
+                glVertex3f( x1-translate_x-gifiti1, y1-translate_y-gifiti2, 0.0f );
+
+                //Bottom-right vertex (corner)
+                //glColor4ub(100,100,100,255);
+                glColor4ub(255,255,255,alpha_init);
+                glTexCoord2i( 1, 0 );
+                glVertex3f( x1-translate_x, y1-translate_y, 0.f );
+
+
+                //Top-right vertex (corner)
+                //glColor4ub(100,100,100,255);
+                glColor4ub(255,255,255,alpha_init);
+                glTexCoord2i( 1, 1 );
+                glVertex3f( x2-translate_x, y1-translate_y, 0.f );
+
+                //Top-left vertex (corner)
+                //glColor4ub(0,0,0,255);
+                glColor4ub(255,255,255,alpha_end);
+                glTexCoord2i( 0, 1 );
+                glVertex3f( x2-translate_x+gifiti1x, y1-translate_y+gifiti2x, 0.f );
+
+            glEnd();
+        }
+
+        glColor4ub(color_effects.getRed(), color_effects.getGreen(), color_effects.getBlue(),color_effects.getAlpha());
+    }
+
+
+
+
+
+
+
+
+
     glBegin( GL_QUADS );
         //Bottom-left vertex (corner)
         glTexCoord2i( 0, 0 );
