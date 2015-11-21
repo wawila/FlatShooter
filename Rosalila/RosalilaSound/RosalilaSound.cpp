@@ -43,7 +43,7 @@ void Sound::playMusic(std::string path)
     stopMusic();
     writeLogLine("Playing music: "+path);
     music = Mix_LoadMUS(path.c_str());
-    Mix_PlayMusic(music,-1);
+    //Mix_PlayMusic(music,-1);
 }
 
 void Sound::stopMusic()

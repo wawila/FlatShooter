@@ -652,7 +652,7 @@ void Character::parrentRender()
         false,
         0,0,
         Color(255,255,255,255),
-        0,0,
+        700,-800,
         true);
 
     if(receiver->isKeyDown(SDLK_h))
