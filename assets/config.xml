@@ -7,9 +7,11 @@
 	<Chars>
 		<char name="Square"/>
 		<char name="Iguro"/>
+		<char name="Demo"/>
 	</Chars>
 	<Stages>
 		<stage name="City"/>
+		<stage name="CityFlat"/>
 		<stage name="StarField"/>
 		<stage name="FeministKillBot_normal"/>
 		<stage name="FeministKillBot_hard"/>
