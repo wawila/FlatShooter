@@ -1,7 +1,5 @@
 bin/
-Rosalila/
 obj/
-log
-assets/
+log/
 STG
 STG.layout
