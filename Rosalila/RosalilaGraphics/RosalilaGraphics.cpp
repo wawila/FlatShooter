@@ -154,6 +154,8 @@ RosalilaGraphics::RosalilaGraphics()
          exit(12);
     }
 
+    shadow_texture = getTexture(assets_directory+"/shadow.png");
+
     return;
 }
 
@@ -318,7 +320,7 @@ void RosalilaGraphics::draw2DImage	(
     glRotatef(-rotation, 0, 0, 1.0);
 
 
-    glBindTexture( GL_TEXTURE_2D, texture->getTexture() );
+    glBindTexture( GL_TEXTURE_2D, shadow_texture->getTexture() );
     glColor4ub(color_effects.getRed(), color_effects.getGreen(), color_effects.getBlue(),color_effects.getAlpha());
     glEnable(GL_BLEND);
     glBlendFunc( GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA );
@@ -347,7 +349,7 @@ void RosalilaGraphics::draw2DImage	(
                 //glColor4ub(100,100,100,255);
                 glColor4ub(255,255,255,alpha_init);
                 glTexCoord2i( 0, 0 );
-                glVertex3f( x2-translate_x, y1-translate_y, 0.0f );
+                glVertex3f( x2-translate_x-3, y1-translate_y+25, 0.0f );
 
                 //Bottom-right vertex (corner)
                 glColor4ub(255,255,255,alpha_end);
@@ -366,7 +368,7 @@ void RosalilaGraphics::draw2DImage	(
                 //glColor4ub(100,100,100,255);
                 glColor4ub(255,255,255,alpha_init);
                 glTexCoord2i( 0, 1 );
-                glVertex3f( x1-translate_x, y2-translate_y, 0.f );
+                glVertex3f( x1-translate_x+4, y2-translate_y, 0.f );
 
             glEnd();
         }else if(x2<=shadow_x)// && false)
@@ -386,14 +388,14 @@ void RosalilaGraphics::draw2DImage	(
                 //glColor4ub(100,100,100,255);
                 glColor4ub(255,255,255,alpha_init);
                 glTexCoord2i( 1, 0 );
-                glVertex3f( x1-translate_x, y1-translate_y, 0.f );
+                glVertex3f( x1-translate_x+4, y1-translate_y, 0.f );
 
 
                 //Top-right vertex (corner)
                 //glColor4ub(100,100,100,255);
                 glColor4ub(255,255,255,alpha_init);
                 glTexCoord2i( 1, 1 );
-                glVertex3f( x2-translate_x, y2-translate_y, 0.f );
+                glVertex3f( x2-translate_x-3, y2-translate_y-25, 0.f );
 
                 //Top-left vertex (corner)
                 //glColor4ub(0,0,0,255);
@@ -423,14 +425,14 @@ void RosalilaGraphics::draw2DImage	(
                 //glColor4ub(100,100,100,255);
                 glColor4ub(255,255,255,alpha_init);
                 glTexCoord2i( 1, 0 );
-                glVertex3f( x1-translate_x, y1-translate_y, 0.f );
+                glVertex3f( x1-translate_x+4, y1-translate_y+25, 0.f );
 
 
                 //Top-right vertex (corner)
                 //glColor4ub(100,100,100,255);
                 glColor4ub(255,255,255,alpha_init);
                 glTexCoord2i( 1, 1 );
-                glVertex3f( x2-translate_x, y1-translate_y, 0.f );
+                glVertex3f( x2-translate_x-3, y1-translate_y+25, 0.f );
 
                 //Top-left vertex (corner)
                 //glColor4ub(0,0,0,255);
@@ -449,7 +451,7 @@ void RosalilaGraphics::draw2DImage	(
 
 
 
-
+glBindTexture( GL_TEXTURE_2D, texture->getTexture() );
 
 
     glBegin( GL_QUADS );
