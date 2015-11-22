@@ -58,6 +58,7 @@ protected:
     std::list<Pattern*>* active_patterns;
 
 public:
+    vector<Point*>shadow_align_points;
 
 double x,y;
     Character(){}
