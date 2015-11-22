@@ -8,6 +8,7 @@
 		<char name="Square"/>
 		<char name="Iguro"/>
 		<char name="Demo"/>
+		<char name="Carl"/>
 	</Chars>
 	<Stages>
 		<stage name="City"/>
@@ -18,6 +19,7 @@
 		<stage name="FeministKillBot_normal"/>
 		<stage name="FeministKillBot_hard"/>
 		<stage name="Wawila"/>
+		<stage name="insertname"/>
 	</Stages>
 	<YouLose x="500" y="200" animation_velocity="5">
 		<sprite path="misc/you lose/1.png"/>
