@@ -329,12 +329,6 @@ void RosalilaGraphics::draw2DImage	(
 
 
 
-
-
-
-    float shadow_lenght=1;
-    float alpha_init=128;
-    float alpha_end=0;
     if((flat_shadow.shadow_x!=0 || flat_shadow.shadow_y!=0) && flat_shadow.points.size()>0)
     {
         glColor4ub(100,100,100,100);
@@ -348,14 +342,14 @@ void RosalilaGraphics::draw2DImage	(
             glBegin( GL_QUADS );
                 //Bottom-left vertex (corner)
                 //glColor4ub(100,100,100,255);
-                glColor4ub(255,255,255,alpha_init);
+                glColor4ub(255,255,255,flat_shadow.alpha_init);
                 glTexCoord2i( 0, 0 );
                 glVertex3f( x2-translate_x+flat_shadow.points[1]->x,
                            y1-translate_y+flat_shadow.points[1]->y,
                            0.0f );
 
                 //Bottom-right vertex (corner)
-                glColor4ub(255,255,255,alpha_end);
+                glColor4ub(255,255,255,flat_shadow.alpha_end);
                 //glColor4ub(0,0,0,255);
                 glTexCoord2i( 1, 0 );
                 glVertex3f( x2-translate_x+gifiti1, y1-translate_y+gifiti2, 0.f );
@@ -363,13 +357,13 @@ void RosalilaGraphics::draw2DImage	(
 
                 //Top-right vertex (corner)
                 //glColor4ub(0,0,0,255);
-                glColor4ub(255,255,255,alpha_end);
+                glColor4ub(255,255,255,flat_shadow.alpha_end);
                 glTexCoord2i( 1, 1 );
                 glVertex3f( x1-translate_x+gifiti1b, y2-translate_y+gifiti2b, 0.f );
 
                 //Top-left vertex (corner)
                 //glColor4ub(100,100,100,255);
-                glColor4ub(255,255,255,alpha_init);
+                glColor4ub(255,255,255,flat_shadow.alpha_init);
                 glTexCoord2i( 0, 1 );
                 glVertex3f( x1-translate_x+flat_shadow.points[0]->x,
                             y2-translate_y+flat_shadow.points[0]->y,
@@ -385,13 +379,13 @@ void RosalilaGraphics::draw2DImage	(
             glBegin( GL_QUADS );
                 //Bottom-left vertex (corner)
                 //glColor4ub(0,0,0,255);
-                glColor4ub(255,255,255,alpha_end);
+                glColor4ub(255,255,255,flat_shadow.alpha_end);
                 glTexCoord2i( 0, 0 );
                 glVertex3f( x1-translate_x-gifiti1, y1-translate_y-gifiti2, 0.0f );
 
                 //Bottom-right vertex (corner)
                 //glColor4ub(100,100,100,255);
-                glColor4ub(255,255,255,alpha_init);
+                glColor4ub(255,255,255,flat_shadow.alpha_init);
                 glTexCoord2i( 1, 0 );
                 glVertex3f( x1-translate_x+flat_shadow.points[2]->x,
                            y1-translate_y+flat_shadow.points[2]->y,
@@ -400,7 +394,7 @@ void RosalilaGraphics::draw2DImage	(
 
                 //Top-right vertex (corner)
                 //glColor4ub(100,100,100,255);
-                glColor4ub(255,255,255,alpha_init);
+                glColor4ub(255,255,255,flat_shadow.alpha_init);
                 glTexCoord2i( 1, 1 );
                 glVertex3f( x2-translate_x+flat_shadow.points[3]->x,
                            y2-translate_y+flat_shadow.points[3]->y,
@@ -408,7 +402,7 @@ void RosalilaGraphics::draw2DImage	(
 
                 //Top-left vertex (corner)
                 //glColor4ub(0,0,0,255);
-                glColor4ub(255,255,255,alpha_end);
+                glColor4ub(255,255,255,flat_shadow.alpha_end);
                 glTexCoord2i( 0, 1 );
                 glVertex3f( x2-translate_x-gifiti1b, y2-translate_y-gifiti2b, 0.f );
 
@@ -426,13 +420,13 @@ void RosalilaGraphics::draw2DImage	(
             glBegin( GL_QUADS );
                 //Bottom-left vertex (corner)
                 //glColor4ub(0,0,0,255);
-                glColor4ub(255,255,255,alpha_end);
+                glColor4ub(255,255,255,flat_shadow.alpha_end);
                 glTexCoord2i( 0, 0 );
                 glVertex3f( x1-translate_x-gifiti1, y1-translate_y-gifiti2, 0.0f );
 
                 //Bottom-right vertex (corner)
                 //glColor4ub(100,100,100,255);
-                glColor4ub(255,255,255,alpha_init);
+                glColor4ub(255,255,255,flat_shadow.alpha_init);
                 glTexCoord2i( 1, 0 );
                 glVertex3f( x1-translate_x+flat_shadow.points[4]->x,
                            y1-translate_y+flat_shadow.points[4]->y,
@@ -441,7 +435,7 @@ void RosalilaGraphics::draw2DImage	(
 
                 //Top-right vertex (corner)
                 //glColor4ub(100,100,100,255);
-                glColor4ub(255,255,255,alpha_init);
+                glColor4ub(255,255,255,flat_shadow.alpha_init);
                 glTexCoord2i( 1, 1 );
                 glVertex3f( x2-translate_x+flat_shadow.points[5]->x,
                            y1-translate_y+flat_shadow.points[5]->y,
@@ -449,7 +443,7 @@ void RosalilaGraphics::draw2DImage	(
 
                 //Top-left vertex (corner)
                 //glColor4ub(0,0,0,255);
-                glColor4ub(255,255,255,alpha_end);
+                glColor4ub(255,255,255,flat_shadow.alpha_end);
                 glTexCoord2i( 0, 1 );
                 glVertex3f( x2-translate_x+gifiti1x, y1-translate_y+gifiti2x, 0.f );
 

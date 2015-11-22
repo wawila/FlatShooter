@@ -664,7 +664,7 @@ void Character::parrentRender()
         Color(255,255,255,255),
         0,0,
         true,
-        FlatShadow(1,128,0,700,-800,shadow_align_points));
+        FlatShadow(2,60,0,700,-500,shadow_align_points));
 
     if(receiver->isKeyDown(SDLK_h))
     {
