@@ -17,6 +17,7 @@
 		<stage name="StarField"/>
 		<stage name="FeministKillBot_normal"/>
 		<stage name="FeministKillBot_hard"/>
+		<stage name="Wawila"/>
 	</Stages>
 	<YouLose x="500" y="200" animation_velocity="5">
 		<sprite path="misc/you lose/1.png"/>

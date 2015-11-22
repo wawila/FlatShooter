@@ -58,7 +58,8 @@ void MenuBarra::dibujar()
             0,0,
             Color(255,255,255,255),
             0,0,
-            false);
+            false,
+            FlatShadow());
         painter->draw2DImage
         (   barra,
             width*(actual/maximo),height,
@@ -69,7 +70,8 @@ void MenuBarra::dibujar()
             0,0,
             Color(255,255,255,255),
             0,0,
-            false);
+            false,
+            FlatShadow());
     }else
     {
         painter->draw2DImage
@@ -82,7 +84,8 @@ void MenuBarra::dibujar()
             0,0,
             Color(255,255,255,255),
             0,0,
-            false);
+            false,
+            FlatShadow());
         painter->draw2DImage
         (   barra_sel,
             width*(actual/maximo),height,
@@ -93,7 +96,8 @@ void MenuBarra::dibujar()
             0,0,
             Color(255,255,255,255),
             0,0,
-            false);
+            false,
+            FlatShadow());
     }
 }
 
@@ -111,7 +115,8 @@ void MenuBarra::dibujar(int alineacion_x,int alineacion_y)
             0,0,
             Color(255,255,255,255),
             0,0,
-            false);
+            false,
+            FlatShadow());
         painter->draw2DImage
         (   barra,
             width*((float)actual/(float)maximo),height,
@@ -122,7 +127,8 @@ void MenuBarra::dibujar(int alineacion_x,int alineacion_y)
             0,0,
             Color(255,255,255,255),
             0,0,
-            false);
+            false,
+            FlatShadow());
     }else
     {
         painter->draw2DImage
@@ -135,7 +141,8 @@ void MenuBarra::dibujar(int alineacion_x,int alineacion_y)
             0,0,
             Color(255,255,255,255),
             0,0,
-            false);
+            false,
+            FlatShadow());
         painter->draw2DImage
         (   barra_sel,
             width*((float)actual/(float)maximo),height,
@@ -146,7 +153,8 @@ void MenuBarra::dibujar(int alineacion_x,int alineacion_y)
             0,0,
             Color(255,255,255,255),
             0,0,
-            false);
+            false,
+            FlatShadow());
     }
 }
 

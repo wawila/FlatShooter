@@ -145,6 +145,16 @@ void Character::loadMainXML()
         }
         sprites[sprites_orientation]=sprites_vector;
     }
+
+    if(main_file->FirstChild("ShadowPoints")!=NULL)
+    for(TiXmlNode* point_node=main_file->FirstChild("ShadowPoints")->FirstChild("Point");
+            point_node!=NULL;
+            point_node=point_node->NextSibling("Point"))
+    {
+        int x=atoi(point_node->ToElement()->Attribute("x"));
+        int y=atoi(point_node->ToElement()->Attribute("y"));
+        shadow_align_points.push_back(new Point(x,y));
+    }
 }
 
 void Character::loadBulletsXML()
@@ -652,8 +662,9 @@ void Character::parrentRender()
         false,
         0,0,
         Color(255,255,255,255),
-        700,-800,
-        true);
+        0,0,
+        true,
+        FlatShadow(1,128,0,700,-800,shadow_align_points));
 
     if(receiver->isKeyDown(SDLK_h))
     {

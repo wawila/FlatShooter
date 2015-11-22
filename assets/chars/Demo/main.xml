@@ -25,4 +25,12 @@
 		<Sprite path="death/5.png"/>
 		<Sprite path="death/6.png"/>
 	</Sprites>
+  <ShadowPoints>
+    <Point x="4" y="0"/>
+    <Point x="-3" y="25"/>
+    <Point x="4" y="0"/>
+    <Point x="-3" y="-25"/>
+    <Point x="4" y="25"/>
+    <Point x="-3" y="25"/>
+  </ShadowPoints>
 </MainFile>
