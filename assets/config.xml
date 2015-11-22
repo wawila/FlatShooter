@@ -1,13 +1,8 @@
 <ConfigFile>
 	<User name=""/>
 	<Resolution x="1366" y="768"/>
-<<<<<<< HEAD
-	<ScreenSize x="1366" y="768"/>
-	<Fullscreen enabled="yes"/>
-=======
 	<ScreenSize x="1024" y="600"/>
 	<Fullscreen enabled="no"/>
->>>>>>> 27e273482c4f390670fda93e8367515ba1559e3c
 	<Font red="0" green="0" blue="255" size="80"/>
 	<Chars>
 		<char name="Square"/>
@@ -21,10 +16,7 @@
 		<stage name="StarField"/>
 		<stage name="FeministKillBot_normal"/>
 		<stage name="FeministKillBot_hard"/>
-<<<<<<< HEAD
 		<stage name="Wawila"/>
-=======
->>>>>>> 27e273482c4f390670fda93e8367515ba1559e3c
 	</Stages>
 	<YouLose x="500" y="200" animation_velocity="5">
 		<sprite path="misc/you lose/1.png"/>
